@@ -1,0 +1,21 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    cout << "@@@...Program To Swap Two Numbers...@@@" << endl;
+    int a,b,c;
+    cout <<"Enter Values For Swapping"<< endl;
+    cout <<"a= ";
+    cin >>a;
+    cout <<"b= ";
+    cin >>b;
+    c = a;
+    a = b;
+    b = c;
+    cout << "Swap Results" << endl;
+    cout <<"a= "<<a<< endl;
+    cout <<"b= "<<b<< endl;
+    return 0;
+}
